@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: mc-app
-        image: ajayrasi/httpd_git_vim
+        image: ajayrasi/httpd_git_vim:xyz
         ports:
         - containerPort: 8080
 
